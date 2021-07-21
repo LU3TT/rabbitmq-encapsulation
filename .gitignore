@@ -1,0 +1,6 @@
+# Project exclude paths
+/api/target/
+/common/target/
+/core-producer/target/
+/rabbie-test/target/
+/task/target/

@@ -1,0 +1,27 @@
+server:
+  port: 8081
+
+spring:
+  rabbitmq:
+    addres ses: 42.193.110.116:5672
+    username: admin
+    password: Be_Young123
+    virtual-host: /
+    connection-timeout: 15000
+    template:
+      mandatory: true
+    listener:
+      simple:
+        auto-startup: false
+    publisher-confirm-type: correlated
+    publisher-returns: true
+
+elastic:
+  job:
+    zk:
+      serverLists: 42.193.110.116:2181
+      namespace: elastic-job
+
+mybatis:
+  mapper-locations: classpath*:com/cjl/rabbit/producer/mapping/*.xml
+  type-aliases-package: com.cjl.rabbit.producer.mapper

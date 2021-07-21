@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core-producer/core-producer.iml" filepath="$PROJECT_DIR$/core-producer/core-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbie-test/rabbie-test.iml" filepath="$PROJECT_DIR$/rabbie-test/rabbie-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq-encapsulation.iml" filepath="$PROJECT_DIR$/rabbitmq-encapsulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task/task.iml" filepath="$PROJECT_DIR$/task/task.iml" />
+    </modules>
+  </component>
+</project>
